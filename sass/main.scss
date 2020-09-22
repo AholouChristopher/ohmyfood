@@ -1,0 +1,23 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./pages/homepage";
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/section";
+
+.row{
+  display: flex;
+}
+
+.justify-content
+{
+  &__around{
+  justify-content: space-around;
+  width: 100%;
+  }
+  &__center{
+    display: flex;
+    justify-content: center;
+
+  }
+}

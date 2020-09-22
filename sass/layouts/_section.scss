@@ -1,0 +1,5 @@
+section {
+  @include backgroundPrincipale($color-primary, 0.1%);
+  padding-bottom: 80px;
+  padding: 25px;
+}

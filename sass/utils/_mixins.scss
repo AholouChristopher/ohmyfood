@@ -1,0 +1,3 @@
+@mixin backgroundPrincipale($color-primary,$dark){
+  background: darken($color-primary, $dark);
+}

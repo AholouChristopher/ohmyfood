@@ -1,0 +1,26 @@
+.footer{
+@include backgroundPrincipale($color-primary, 75%);
+  &__picto{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    width: 20px;
+  }
+  &__img{
+    width: 25%;
+
+  }
+}
+
+footer{
+  padding: 20px;
+  ul {
+  list-style:none;
+  color: white;
+  padding-left: 0px;
+  }
+  li {
+    margin-top:5px
+  }
+
+}
